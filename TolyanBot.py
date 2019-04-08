@@ -56,7 +56,7 @@ def main():
             greet_bot.send_message(last_chat_id, 'Good day, {}'.format(last_chat_name))
             today += 1
         else:
-            greet_bot.send_message(last_chat_id, 'Welcome master!'))
+            greet_bot.send_message(last_chat_id, 'Welcome master!')
             today += 1
         new_offset = last_update_id + 1
 
